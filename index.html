@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab: 01b</title>
+
+    <style>
+        h1{
+           text-align: center;
+           background-color: brown;
+        }
+
+        main{
+            border:olive;
+            border-style: dashed;
+            padding: 44px;
+            margin: 11%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Class 1 Lab</h1>
+    </header>
+
+    <main>
+        <p style="background-color: coral;color:midnightblue;">What is your name ?</p>
+        <p>How old are you ?</p>
+        <p>What is your major ?</p>
+        <p>What is your hobby ?</p>
+    </main>
+
+    <script>
+    let userName=prompt('What is your name ?');
+    console.log('Your name is : ' + userName);
+    alert('You said that your name is : '+ userName);
+
+    let userAge=prompt('How old are you ?');
+    console.log('Your age is : ' + userAge);
+    alert('You said that your age is : ' +userAge+'\nYou said that your name is : '+ userName);
+
+    let userMajor=prompt('What is your major ?');
+    console.log('Your major is : ' + userMajor);
+    alert('You said that your major is : ' +userMajor+'\nYou said that your age is :' +userAge+'\nYou said that your name is : '+ userName);
+    
+    let userHobby=prompt('What is your hobby ?');
+    console.log('Your major is : ' + userHobby);
+    alert('You said that your hobby is : ' +userHobby+'\nYou said that your major is :' +userMajor+'\nYou said that your age is :' +userAge+'\nYou said that your name is : '+ userName);
+    </script>
+
+    <footer>
+    &copy;</footer>
+</body>
+</html>
